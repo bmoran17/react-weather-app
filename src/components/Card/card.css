@@ -1,0 +1,64 @@
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  border: 3px solid black;
+  border-radius: 25px;
+  margin: auto;
+  max-width: 600px;
+  height: 300px;
+  text-align: center;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-content > h2 {
+  margin-bottom: 0;
+}
+
+.current-temp {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.card-image {
+  width: 64px;
+  height: 64px;
+}
+
+.night-image {
+  background-image: url("./photos/night-sky.jpeg");
+  background-size: cover;
+  color: white;
+}
+
+.day-image {
+  background-image: url("./photos/day-sky.avif"); 
+  background-size: cover;
+}
+
+.typed-city {
+  padding: 10px;
+  border-radius: 50px;
+  margin: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.city-submit-btn {
+  border-radius: 25px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.right-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-end;
+
+}

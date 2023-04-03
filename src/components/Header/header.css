@@ -1,0 +1,10 @@
+.header-container {
+  display: flex;
+  justify-content: center;
+}
+
+.header-title {
+  padding: 10px;
+  border: 3px solid black;
+  border-radius: 25px;
+}
