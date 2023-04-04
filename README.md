@@ -1,4 +1,19 @@
-# Getting Started with Create React App
+# React Weather App
+
+This project is a city search engine by name or zipcode that provides current weather information.
+
+## What I Learned:
+
+- fetching api data
+- changing states with useState
+- using ternary operators to implement different class names
+
+Live Demo:
+
+Preview:
+![](./preview.png)
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
