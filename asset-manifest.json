@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-weather-app/static/css/main.a933d904.css",
+    "main.js": "/react-weather-app/static/js/main.8175314e.js",
+    "static/media/night-sky.jpeg": "/react-weather-app/static/media/night-sky.22477e27f531df00b678.jpeg",
+    "static/media/day-sky.avif": "/react-weather-app/static/media/day-sky.8ba2905a8e4ca74017ac.avif",
+    "index.html": "/react-weather-app/index.html",
+    "main.a933d904.css.map": "/react-weather-app/static/css/main.a933d904.css.map",
+    "main.8175314e.js.map": "/react-weather-app/static/js/main.8175314e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a933d904.css",
+    "static/js/main.8175314e.js"
+  ]
+}
