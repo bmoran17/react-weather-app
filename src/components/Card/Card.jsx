@@ -23,7 +23,7 @@ const Card = () => {
 		const response = await fetch(`http://api.weatherapi.com/v1/current.json?key=${KEY}&q=${city}&aqi=no`);
 		const data = await response.json()
 		console.log(data)
-
+		
 		if (!("error" in data)) {
 			setData(data)
 			setError(false)
