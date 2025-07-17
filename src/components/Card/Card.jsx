@@ -1,8 +1,8 @@
 import React, {useState, useEffect} from "react";
 import "./card.css"
 
-const KEY = '28009c1838764fddad972620233103'
-
+// const KEY = '28009c1838764fddad972620233103'
+const API_KEY = process.env.REACT_APP_API_KEY;
 const Card = () => {
 	const [city, setCity] = useState("San Francisco");
 	const [data, setData] = useState(null);
@@ -20,7 +20,7 @@ const Card = () => {
 	}
 
 	const getWeather = async () => {
-		const response = await fetch(`http://api.weatherapi.com/v1/current.json?key=${KEY}&q=${city}&aqi=no`);
+		const response = await fetch(`http://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${city}&aqi=no`);
 		const data = await response.json()
 		console.log(data)
 		
